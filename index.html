@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a602d71c8b.js" crossorigin="anonymous"></script>
+    
+    <title>Music Daft Punk</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <h1>Daft Punk</h1>
+
+    <div class="musique-contenaire" id="musique-contenant">
+
+        <!--Titre et la barre de progrès-->
+
+        <div class="musique-info">
+            <h4 id="titre">One more time</h4>
+            <div class="progres-contenant" id="progres-contenant">
+                <div class="progres" id="progres"></div>
+            </div>
+        </div>
+
+
+        <!--Audio-->
+
+        <audio src="audio/Daft Punk - One More Time (Official Audio).mp3" id="audio"></audio>
+
+        <!--Image du disque-->
+
+        <div class="img-contenant">
+            <img src="images/Superheroes.jpg" alt="One more time" id="cover">
+        </div>
+
+
+        <!--Boutons-->
+
+        <div class="navigation">
+            <button class="action-btn" id="precedent">
+                <i class="fa-solid fa-backward"></i>
+            </button>
+
+            <button class="action-btn action-btn-gros" id="play">
+                <i class="fa-solid fa-play"></i>
+            </button>   
+
+            <button class="action-btn" id="suivant">
+                <i class="fa-solid fa-forward"></i>
+            </button>   
+        </div>
+        
+
+    </div>
+
+    <script src="script.js"></script>
+</html>
